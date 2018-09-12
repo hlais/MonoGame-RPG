@@ -57,5 +57,10 @@ namespace MonoRPG
             spriteBatch.Draw(Texture, destinationRectangle, sourceRectangle, Color.White);
             spriteBatch.End();
         }
+
+        public void SetFrame(int newFrame)
+        {
+            currentFrame = newFrame;
+        }
     }
 }
